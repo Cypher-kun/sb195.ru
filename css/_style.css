@@ -3,7 +3,7 @@
 @import url(_reset.css);
 @import url(_initialization.css);
 
-/*@import url(link.css);*/
+@import url(link.css);
 /*@import url(time.css);*/
 /*@import url(icon.css);*/
 /*@import url(button.css);*/
@@ -17,6 +17,7 @@
 /*@import url(clearfix.css);*/
 /*@import url(ancients.css);*/
 @import url(logo.css);
+@import url(contacts.css);
 /*@import url(nav.css);*/
 /*@import url(copyright.css);*/
 /*@import url(breadcrumbs.css);*/

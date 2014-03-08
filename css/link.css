@@ -6,3 +6,7 @@
 .link:hover {
     text-decoration: none;
 }
+
+    .link_dark {
+       color: #3e586c;;
+    }

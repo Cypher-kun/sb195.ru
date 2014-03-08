@@ -7,3 +7,9 @@
         left: -6px;
         top: 131px;
     }
+
+    .header__contacts {
+        position: absolute;
+        left: 253px;
+        top: 76px;
+    }
