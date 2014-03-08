@@ -1,8 +1,6 @@
 html {
     min-width: 1000px;
-    background: #e3e3e3 url(../images/background.png);
     font-family: 'PT Sans', sans-serif;
-    color: #222;
 }
 
 ::-moz-selection {

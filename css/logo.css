@@ -1,6 +1,33 @@
 .logo {
     display: block;
-    width: 208px;
-    height: 72px;
-    background: url(../images/sprite.png) no-repeat 0 0;
+    width: 228px;
+    height: 105px;
+    position: relative;
+    color: #fff;
 }
+
+    .logo__title {
+        text-align: right;
+
+    }
+
+        .logo__title__prefix {
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        .logo__title__text {
+            font-family: 'Sunline';
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 38px;
+        }
+
+    .logo__postfix {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .logo__icon {
+        display: block;
+    }
