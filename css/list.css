@@ -1,0 +1,23 @@
+.list {
+
+}
+
+    .list__item {
+
+    }
+
+.list_squared {
+    list-style: square;
+    padding-left: 15px;
+}
+
+.list_sparsed .list__item {
+    margin-top: 4px;
+}
+
+.list_sparsed .list__item:first-child {
+    margin-top: 0;
+}
+
+
+

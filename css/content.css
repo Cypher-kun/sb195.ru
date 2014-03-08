@@ -1,14 +1,25 @@
 .content {
 
 }
-    .content__header {
 
+    .content__banner {
+        width: 620px;
+        height: 70px;
+        overflow: hidden;
     }
 
-    .content__body {
-        margin: 20px 0 0;
+        .content__banner__image {
+            width: 620px;
+            height: 70px;
+        }
+
+    .content__offer {
+        margin: 10px -10px -10px;
     }
 
-    .content__body:first-child {
-        margin-top: 0;
-    }
+        .content__offer__item {
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px;
+            width: 300px;
+        }

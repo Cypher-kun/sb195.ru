@@ -1,0 +1,61 @@
+.offer {
+    display: block;
+    border: 1px solid #d8d8d8;
+    padding: 19px 19px 7px 19px;
+    border-radius: 2px;
+}
+
+    .offer__image {
+        border-radius: 2px;
+    }
+
+        .offer__image__file {
+            width: 260px;
+            height: 260px;
+        }
+
+    .offer__title {
+        margin-top: 7px;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+        color: #3e586c;
+    }
+
+    .offer:hover .offer__title {
+        text-decoration: underline;
+    }
+
+    .offer__text {
+        margin-top: 11px;
+        padding-top: 13px;
+        border-top: 1px dashed #d8d8d8;
+        font-size: 14px;
+        line-height: 16px;
+        color: #7e8386;
+    }
+
+    .offer__price {
+        margin-top: 11px;
+        padding-top: 16px;
+        border-top: 1px dashed #d8d8d8;
+    }
+
+        .offer__price__label {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            line-height: 16px;
+            color: #364456;
+        }
+
+        .offer__price__value {
+            margin-top: -3px;
+            display: inline-block;
+            vertical-align: top;
+            font-family: 'Sunline';
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 26px;
+            color: #4b9fba;
+        }
