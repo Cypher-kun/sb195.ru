@@ -1,9 +1,35 @@
 .nav {
-
+    background: #3a4e61;
+    background: linear-gradient(#3e586c, #364357);
+    border-radius: 3px 3px 0 0;
+    padding: 0 32px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: justify;
+    cursor: default;
 }
     .nav__item {
-
+        display: inline-block;
+        vertical-align: top;
     }
         .nav__item__link {
+            padding: 4px 10px 0;
+            display: block;
+            height: 46px;
+            line-height: 46px;
+            cursor: pointer;
+        }
 
+
+        .nav:after {
+            content: '';
+            width: 100%;
+            height: 1px;
+            display: inline-block;
+            vertical-align: top;
+            overflow: hidden;
+            margin-top: -4px;
         }

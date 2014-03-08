@@ -13,3 +13,10 @@
         left: 253px;
         top: 76px;
     }
+
+    .header__nav {
+        position: absolute;
+        left: -20px;
+        right: -20px;
+        bottom: 0;
+    }
