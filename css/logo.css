@@ -1,9 +1,10 @@
 .logo {
     display: block;
-    width: 228px;
+    width: 193px;
     height: 105px;
     position: relative;
     color: #fff;
+    text-shadow: 2px 2px 0 rgba(63, 71, 103, 0.21);
 }
 
     .logo__title {
@@ -17,17 +18,27 @@
         }
 
         .logo__title__text {
+            margin-top: 3px;
             font-family: 'Sunline';
             font-weight: bold;
             font-size: 36px;
-            line-height: 38px;
+            line-height: 30px;
         }
 
     .logo__postfix {
         font-size: 10px;
         line-height: 12px;
+        position: absolute;
+        top: 49px;
+        right: 101px;
     }
 
     .logo__icon {
         display: block;
+        background: url(../images/logo.png);
+        width: 60px;
+        height: 58px;
+        position: absolute;
+        top: -29px;
+        right: -40px;
     }
