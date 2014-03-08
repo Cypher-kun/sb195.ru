@@ -1,0 +1,55 @@
+.request {
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+
+}
+
+    .request__promo {
+        padding: 19px 19px 14px 19px;
+    }
+
+        .request__promo__title {
+            font-family: 'Sunline';
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 24px;
+            color: #3e586c;
+        }
+
+        .request__promo__image {
+            margin-top: 6px;
+            text-align: center;
+        }
+
+        .request__promo__text {
+            margin-top: 11px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #7e8386;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .request__promo__text__phone {
+                display: inline-block;
+                vertical-align: top;
+                font-weight: bold;
+            }
+
+    .request__form {
+        background: #e2ebf3;
+        padding: 21px 19px 20px;
+    }
+
+        .request__form__row {
+            margin-top: 10px;
+        }
+
+            .request__form__row__submit {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+        .request__form__row:first-child {
+            margin-top: 0;
+        }
