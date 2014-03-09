@@ -4,14 +4,30 @@
     font-size: 12px;
     line-height: 14px;
     color: #7e8386;
+    position: relative;
 }
 
-    .footer__logo {
+    .footer__line {
+        background: #e2e2e2;
+        border-radius: 0 0 4px 4px;
+        width: 1000px;
+        height: 5px;
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
 
+    .footer__logo {
+        position: absolute;
+        top: 46px;
+        left: -3px;
     }
 
     .footer__info {
-
+        width: 280px;
+        position: absolute;
+        top: 36px;
+        left: 174px;
     }
 
 
@@ -20,22 +36,32 @@
         }
 
         .footer__info__contacts {
-
+            margin-top: 10px;
         }
 
     .footer__data {
-
+        position: absolute;
+        top: 34px;
+        left: 495px;
     }
 
         .footer__data__counter {
-
+            text-align: center;
         }
 
-        .footer__data__developer {
+            .footer__data__counter__item {
+                display: inline-block;
+                vertical-align: top;
+            }
 
+        .footer__data__developer {
+            margin-top: 9px;
         }
 
     .footer__warning {
-
+        width: 340px;
+        position: absolute;
+        top: 41px;
+        right: -19px;
     }
 
