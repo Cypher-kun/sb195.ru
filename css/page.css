@@ -13,6 +13,15 @@
         margin: 20px 0 0;
     }
 
+    .page__feedback {
+        margin: 20px 0 0;
+        background: url(../images/feedback__background.png) repeat;
+    }
+
+    .page__projects {
+        margin: 20px 0 0;
+    }
+
     .page__footer {
         margin: 20px 0 0;
         background: #f7f7f7;

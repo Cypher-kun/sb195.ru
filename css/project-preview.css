@@ -1,0 +1,20 @@
+.project-preview {
+
+}
+
+    .project-preview__image {
+
+    }
+
+        .project-preview__image__file {
+            width: 200px;
+            height: 150px;
+        }
+
+    .project-preview__title {
+        margin-top: 2px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #3e586c;
+    }
