@@ -1,0 +1,25 @@
+.footer-logo {
+    width: 123px;
+    height: 38px;
+    display: block;
+    position: relative;
+}
+
+    .footer-logo__title {
+        font-family: 'Sunline';
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 19px;
+        color: #3e586c;
+        text-align: right;
+    }
+
+    .footer-logo__icon {
+        display: block;
+        width: 40px;
+        height: 38px;
+        background: url(../images/logo_footer.png);
+        position: absolute;
+        top: -30px;
+        right: -24px;
+    }

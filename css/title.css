@@ -3,8 +3,9 @@
     font-weight: bold;
     display: block;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 24px;
+    color: #3e586c;
 }
 
 .title_large {

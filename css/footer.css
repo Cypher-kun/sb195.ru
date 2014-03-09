@@ -1,9 +1,41 @@
 .footer {
-    height: 100px;
+    height: 121px;
     position: relative;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7e8386;
 }
-    .footer__copyright {
-        position: absolute;
-        left: 0;
-        top: 10px;
+
+    .footer__logo {
+
     }
+
+    .footer__info {
+
+    }
+
+
+        .footer__info__copyright {
+
+        }
+
+        .footer__info__contacts {
+
+        }
+
+    .footer__data {
+
+    }
+
+        .footer__data__counter {
+
+        }
+
+        .footer__data__developer {
+
+        }
+
+    .footer__warning {
+
+    }
+
