@@ -5,11 +5,15 @@
         display: inline-block;
         vertical-align: top;
         width: 320px;
-        margin: 90px 0 0 20px;
+        margin: 0 0 0 20px;
     }
 
     .body__content {
         display: inline-block;
         vertical-align: top;
         width: 620px;
+    }
+
+    .body__sidebar_pushed {
+        margin-top: 90px;
     }

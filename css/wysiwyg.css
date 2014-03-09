@@ -54,10 +54,14 @@
     border-top: 1px solid;
 }
 
-.wysiwyg h2 {
-    font-size: 1.5em;
+.wysiwyg h2,
+.wysiwyg h1 {
+    font-family: 'Sunline';
+    font-weight: bold;
+    font-size: 1.875em;
     line-height: 1;
-    margin: 0.83em 0 0;
+    margin: 1em 0 0;
+    color: #3e586c;
 }
 
 .wysiwyg h3 {
