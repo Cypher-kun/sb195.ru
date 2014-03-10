@@ -2,8 +2,14 @@
 
 }
     .page__header {
-        background: url(../images/header.jpg) no-repeat center top;
+        background: url(../images/header_1366.jpg) no-repeat center top;
     }
+
+    @media screen and (max-width: 1024px)                         { .page__header { background-image: url(../images/header_1024.jpg); } }
+    @media screen and (min-width: 1025px) and (max-width: 1366px) { .page__header { background-image: url(../images/header_1366.jpg); } }
+    @media screen and (min-width: 1367px) and (max-width: 1600px) { .page__header { background-image: url(../images/header_1600.jpg); } }
+    @media screen and (min-width: 1601px) and (max-width: 1920px) { .page__header { background-image: url(../images/header_1920.jpg); } }
+    @media screen and (min-width: 1921px)                         { .page__header { background-image: url(../images/header_2560.jpg); } }
 
     .page__nav {
         margin: 20px 0 0;
