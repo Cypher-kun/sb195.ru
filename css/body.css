@@ -1,6 +1,10 @@
 .body {
 
 }
+    .body__banner {
+        margin: 0 0 20px;
+    }
+
     .body__sidebar {
         display: inline-block;
         vertical-align: top;
@@ -12,8 +16,4 @@
         display: inline-block;
         vertical-align: top;
         width: 620px;
-    }
-
-    .body__sidebar_pushed {
-        margin-top: 90px;
     }

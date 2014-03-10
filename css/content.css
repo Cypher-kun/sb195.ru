@@ -3,22 +3,9 @@
     line-height: 17px;
     color: #364456;
 }
-
-    .content__banner {
-        width: 620px;
-        height: 70px;
-        overflow: hidden;
-    }
-
-        .content__banner__image {
-            width: 620px;
-            height: 70px;
-        }
-
     .content__offer {
-        margin: 10px -10px -10px;
+        margin: -10px;
     }
-
         .content__offer__item {
             display: inline-block;
             vertical-align: top;
@@ -26,16 +13,16 @@
             width: 300px;
         }
 
-
-    .content__description {
-
-    }
-
     .content__title {
-        margin-top: 20px;
+
     }
 
-    .content__project {
+    .content__page {
         margin-top: 15px;
+    }
+
+
+    .content__page:first-child {
+        margin-top: 0;
     }
 
