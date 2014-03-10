@@ -18,12 +18,10 @@ $(document).on('ready', function(){
         });
 
         $('.carousel_feedback .carousel__arrow_prev').jcarouselControl({
-            // Options go here
             target: '-=1'
         });
 
         $('.carousel_feedback .carousel__arrow_next').jcarouselControl({
-            // Options go here
             target: '+=1'
         });
 
@@ -33,17 +31,15 @@ $(document).on('ready', function(){
 $(document).on('ready', function(){
     $(function() {
 
-        $('.carousel_project').jcarousel({
+        $('.carousel_project .carousel__viewport').jcarousel({
             wrap: 'circular'
         });
 
         $('.carousel_project .carousel__arrow_prev').jcarouselControl({
-            // Options go here
             target: '-=1'
         });
 
         $('.carousel_project .carousel__arrow_next').jcarouselControl({
-            // Options go here
             target: '+=1'
         });
 
