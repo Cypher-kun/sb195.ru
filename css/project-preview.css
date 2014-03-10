@@ -1,5 +1,6 @@
 .project-preview {
-
+    display: block;
+    padding: 0 0 0 20px;
 }
 
     .project-preview__image {
@@ -12,7 +13,7 @@
         }
 
     .project-preview__title {
-        margin-top: 2px;
+        margin-top: 6px;
         font-size: 16px;
         line-height: 18px;
         font-weight: bold;

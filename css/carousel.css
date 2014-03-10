@@ -1,10 +1,29 @@
 .carousel {
-
+    position: relative;
 }
+
+.carousel_feedback {
+    padding: 0 77px;
+}
+
+.carousel_project {
+    padding: 0 80px;
+}
+
+
     .carousel__viewport {
         position: relative;
         overflow: hidden;
     }
+
+    .carousel_feedback .carousel__viewport {
+        width: 805px;
+    }
+
+    .carousel_project .carousel__viewport {
+        width: 800px;
+    }
+
 
         .carousel__viewport__list {
             width: 10000px;
@@ -16,9 +35,21 @@
                 vertical-align: top;
             }
 
+            .carousel_feedback .carousel__viewport__list__item {
+                width: 255px;
+                margin-right: 20px;
+            }
+
+            .carousel_project .carousel__viewport__list__item {
+                margin-right: 40px;
+                width: 240px;
+            }
+
+
             .carousel__viewport__list__item:first-child {
                 margin-left: 0;
             }
+
 
     .carousel__arrow {
         width: 30px;
@@ -28,35 +59,28 @@
         background-repeat: no-repeat;
         background-position: center center;
         cursor: pointer;
+        position: absolute;
+        top: 0;
     }
 
-    .carousel__arrow_prev {
-        background-image: url(../images/arrow__prev.png);
+    .carousel_feedback .carousel__arrow {
+        top: 20px;
     }
 
-    .carousel__arrow_next {
-        background-image: url(../images/arrow__next.png);
+    .carousel_project .carousel__arrow {
+        top: 60px;
     }
+
+    .carousel__arrow_prev { background-image: url(../images/arrow__prev.png); left: 0; }
+    .carousel__arrow_next { background-image: url(../images/arrow__next.png); right: 0;}
+
+
 
     .carousel__arrow_big {
         width: 55px;
         height: 55px;
         border-radius: 27px;
     }
+    .carousel__arrow_big.carousel__arrow_prev { background-image: url(../images/arrow_large__prev.png); }
+    .carousel__arrow_big.carousel__arrow_next { background-image: url(../images/arrow_large__next.png); }
 
-    .carousel__arrow_big.carousel__arrow_prev {
-        background-image: url(../images/arrow_large__prev.png);
-    }
-
-    .carousel__arrow_big.carousel__arrow_next {
-        background-image: url(../images/arrow_large__next.png);
-    }
-
-    .carousel_project .carousel__viewport__list__item {
-        margin-left: 40px;
-        width: 240px;
-    }
-
-    .carousel_feedback .carousel__viewport__list__item {
-        margin-left: 20px;
-    }
