@@ -54,26 +54,32 @@
     border-top: 1px solid;
 }
 
+.wysiwyg h1,
 .wysiwyg h2,
-.wysiwyg h1 {
+.wysiwyg h3,
+.wysiwyg h4 {
     font-family: 'Sunline';
     font-weight: bold;
-    font-size: 1.875em;
     line-height: 1;
     margin: 1em 0 0;
     color: #3e586c;
 }
 
+
+.wysiwyg h1 {
+    font-size: 1.875em;
+}
+
+.wysiwyg h2 {
+    font-size: 1.875em;
+}
+
 .wysiwyg h3 {
-    font-size: 1.17em;
-    line-height: 1.1;
-    margin: 1em 0 0;
+    font-size: 1.571em;
 }
 
 .wysiwyg h4 {
-    font-size: 1em;
-    line-height: 1.2;
-    margin: 1.33em 0 0;
+    font-size: 1.214em;
 }
 
 .wysiwyg h2:first-child,
