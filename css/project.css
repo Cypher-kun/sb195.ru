@@ -7,8 +7,62 @@
     }
 
     .project__summary {
-
+        margin-top: 20px;
+        border: 1px solid #d8d8d8;
+        border-radius: 3px;
+        padding: 16px 5px 20px 20px;
     }
+
+        .project__summary__data {
+
+        }
+
+            .project__summary__data__left {
+                display: inline-block;
+                vertical-align: top;
+                width: 360px;
+            }
+
+                .project__summary__data__left__image {
+
+                }
+
+
+            .project__summary__data__right {
+                display: inline-block;
+                vertical-align: top;
+                width: 210px;
+                margin-left: 20px;
+            }
+
+                .project__summary__data__right__title {
+                    font-size: 16px;
+                    line-height: 19px;
+                    font-weight: bold;
+                    color: #3e586c;
+                }
+
+                .project__summary__data__right__links {
+                    margin-top: 24px;
+                }
+
+                    .project__summary__data__right__links__list {
+
+                    }
+
+                        .project__summary__data__right__links__list__item {
+                            margin-top: 13px;
+                        }
+
+                        .project__summary__data__right__links__list__item:first-child {
+                            margin-top: 0;
+                        }
+
+        .project__summary__table {
+            margin-top: 5px;
+            border-radius: 3px;
+            overflow: hidden;
+        }
 
     .project__description {
         margin-top: 20px;

@@ -26,3 +26,11 @@
         .table__body__row:nth-child(odd) {
             background: #f7f7f7;
         }
+
+.table_inverted {
+    background: #f7f7f7;
+}
+
+.table_inverted .table__body__row:nth-child(odd) {
+    background: #fff;
+}

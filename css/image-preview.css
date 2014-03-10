@@ -1,0 +1,21 @@
+.image-preview {
+    display: block;
+    position: relative;
+}
+
+    .image-preview__file {
+        width: 360px;
+        height: 260px;
+        border-radius: 3px;
+    }
+
+    .image-preview__magnifier {
+        position: absolute;
+        bottom: 24px;
+        right: 20px;
+    }
+
+        .image-preview__magnifier__icon {
+            width: 30px;
+            height: 30px;
+        }

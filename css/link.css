@@ -10,3 +10,24 @@
     .link_dark {
        color: #3e586c;;
     }
+
+
+    .link__icon {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+    .link__body {
+        margin-left: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.link_with-icon {
+    text-decoration: none;
+}
+
+.link_with-icon .link__body {
+    text-decoration: underline;
+}

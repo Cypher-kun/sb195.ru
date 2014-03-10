@@ -14,3 +14,22 @@
     width: 9px;
     height: 8px;
 }
+
+.icon_plan {
+    background: url(../images/icon_plan.png);
+    width: 17px;
+    height: 17px;
+}
+
+.icon_map {
+    background: url(../images/icon_maps.png);
+    width: 17px;
+    height: 17px;
+}
+
+.icon_magnifier {
+    background: url(../images/magnifier.png);
+    width: 30px;
+    height: 30px;
+}
+
