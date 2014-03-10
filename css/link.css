@@ -31,3 +31,7 @@
 .link_with-icon .link__body {
     text-decoration: underline;
 }
+
+.link_with-icon:hover .link__body {
+    text-decoration: none;
+}
