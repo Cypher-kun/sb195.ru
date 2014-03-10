@@ -18,6 +18,16 @@
         background: url(../images/feedback__background.png) repeat;
     }
 
+        .page__feedback__top-pins {
+            background: url(../images/feedback__top-pins.png) repeat-x;
+            height: 6px;
+        }
+
+        .page__feedback__bottom-pins {
+            background: url(../images/feedback__bottom-pins.png) repeat-x;
+            height: 6px;
+        }
+
     .page__projects {
         margin: 20px 0 0;
     }
