@@ -1,0 +1,37 @@
+.project {
+
+}
+
+    .project__prefix {
+
+    }
+
+    .project__summary {
+
+    }
+
+    .project__description {
+        margin-top: 20px;
+    }
+
+        .project__description__title {
+
+        }
+
+        .project__description__text {
+            margin-top: 15px;
+        }
+
+    .project__cost {
+        margin-top: 26px;
+    }
+
+        .project__cost__title {
+
+        }
+
+        .project__cost__data {
+            margin-top: 14px;
+            border-radius: 3px;
+            overflow: hidden;
+        }
