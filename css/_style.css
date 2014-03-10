@@ -32,5 +32,6 @@
 @import url(body.css);
 @import url(region.css);
 @import url(page.css);
+@import url(fancybox.css);
 
 @import url(_print.css);

@@ -3,11 +3,13 @@
 }
 
     .carousel__viewport {
-
+        position: relative;
+        overflow: hidden;
     }
 
         .carousel__viewport__list {
-
+            width: 10000px;
+            position: relative;
         }
 
             .carousel__viewport__list__item {
@@ -20,35 +22,35 @@
             }
 
     .carousel__arrow {
-
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: #9dba7a;
+        background-repeat: no-repeat;
+        background-position: center center;
+        cursor: pointer;
     }
 
     .carousel__arrow_prev {
-        background: #9dba7a url(../images/arrow__prev.png) no-repeat center center;
-        width: 30px;
-        height: 30px;
-        border-radius: 15px;
+        background-image: url(../images/arrow__prev.png);
     }
 
     .carousel__arrow_next {
-        background: #9dba7a url(../images/arrow__next.png) no-repeat center center;
-        width: 30px;
-        height: 30px;
-        border-radius: 15px;
+        background-image: url(../images/arrow__next.png);
     }
 
-    .carousel__big-arrow_prev {
-        background: #9dba7a url(../images/arrow_large__prev.png) no-repeat center center;
+    .carousel__arrow_big {
         width: 55px;
         height: 55px;
         border-radius: 27px;
     }
 
-    .carousel__big-arrow_next {
-        background: #9dba7a url(../images/arrow_large__next.png) no-repeat center center;
-        width: 55px;
-        height: 55px;
-        border-radius: 27px;
+    .carousel__arrow_big.carousel__arrow_prev {
+        background-image: url(../images/arrow_large__prev.png);
+    }
+
+    .carousel__arrow_big.carousel__arrow_next {
+        background-image: url(../images/arrow_large__next.png);
     }
 
     .carousel_project .carousel__viewport__list__item {
