@@ -17,8 +17,12 @@
 
     }
 
+    .content__title {
+        margin: -4px 0 0;
+    }
+
     .content__page {
-        margin-top: 15px;
+        margin-top: 19px;
     }
 
 
