@@ -36,11 +36,11 @@ $(document).on('ready', function(){
         });
 
         $('.carousel_project .carousel__arrow_prev').jcarouselControl({
-            target: '-=1'
+            target: '-=3'
         });
 
         $('.carousel_project .carousel__arrow_next').jcarouselControl({
-            target: '+=1'
+            target: '+=3'
         });
 
     });
