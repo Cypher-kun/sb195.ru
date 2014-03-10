@@ -16,7 +16,7 @@
 
         }
             .table__body__row__cell {
-                padding: 8px 18px 5px;
+                padding: 6px 18px 7px;
             }
 
         .table__body__row__cell:first-child {
@@ -27,10 +27,18 @@
             background: #f7f7f7;
         }
 
-.table_inverted {
+.table_table_product {
     background: #f7f7f7;
 }
 
-.table_inverted .table__body__row:nth-child(odd) {
+.table_table_product .table__body__row:nth-child(odd) {
     background: #fff;
+}
+
+.table_product .table__body__row__cell:first-child {
+    width: 170px;
+}
+
+.table_details .table__body__row__cell:first-child {
+    width: 245px;
 }

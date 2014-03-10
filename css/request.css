@@ -5,7 +5,7 @@
 }
 
     .request__promo {
-        padding: 19px 19px 14px 19px;
+        padding: 17px 19px 14px 19px;
     }
 
         .request__promo__title {
@@ -13,12 +13,12 @@
         }
 
         .request__promo__image {
-            margin-top: 6px;
+            margin-top: 8px;
             text-align: center;
         }
 
         .request__promo__text {
-            margin-top: 11px;
+            margin-top: 15px;
             font-size: 14px;
             line-height: 20px;
             color: #7e8386;

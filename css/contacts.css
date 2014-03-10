@@ -13,7 +13,7 @@
     }
 
     .contacts__phones {
-        margin-top: 11px;
+        margin-top: 9px;
         font-family: 'Sunline';
         font-weight: bold;
         font-size: 18px;
@@ -38,7 +38,7 @@
             }
 
     .contacts__note {
-        margin-top: 5px;
+        margin-top: 7px;
         color: #91969b;
     }
 

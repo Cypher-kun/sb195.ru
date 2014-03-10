@@ -7,10 +7,10 @@
     }
 
     .project__summary {
-        margin-top: 20px;
+        margin-top: 16px;
         border: 1px solid #d8d8d8;
         border-radius: 3px;
-        padding: 16px 5px 20px 20px;
+        padding: 15px 5px 20px 20px;
     }
 
         .project__summary__data {
@@ -24,7 +24,7 @@
             }
 
                 .project__summary__data__left__image {
-
+                    padding: 4px 0 0;
                 }
 
 
@@ -59,13 +59,13 @@
                         }
 
         .project__summary__table {
-            margin-top: 5px;
+            margin-top: 9px;
             border-radius: 3px;
             overflow: hidden;
         }
 
     .project__description {
-        margin-top: 20px;
+        margin-top: 27px;
     }
 
         .project__description__title {
@@ -85,7 +85,7 @@
         }
 
         .project__cost__data {
-            margin-top: 14px;
+            margin-top: 19px;
             border-radius: 3px;
             overflow: hidden;
         }
