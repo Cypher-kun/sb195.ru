@@ -2,35 +2,79 @@
     background: #3a4e61;
     background: linear-gradient(#3e586c, #364357);
     border-radius: 3px 3px 0 0;
-    padding: 0 32px;
+    padding: 0 27px;
     color: #fff;
     font-size: 14px;
-    line-height: 0;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: justify;
     cursor: default;
 }
     .nav__item {
         display: inline-block;
         vertical-align: top;
         position: relative;
+        text-align: center;
     }
         .nav__item__link {
-            padding: 4px 10px 0;
+            padding: 4px 0 0;
             display: block;
             height: 46px;
             line-height: 46px;
-            cursor: pointer;
+            position: relative;
+            z-index: 100;
         }
 
 
-        .nav:after {
-            content: '';
-            width: 100%;
-            height: 1px;
-            display: inline-block;
-            vertical-align: top;
-            overflow: hidden;
-            margin-top: -4px;
+        .nav__item__sub-nav {
+            background: #4b9fba;
+            text-transform: none;
+            text-align: left;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 50;
+            border-radius: 0 3px 3px 3px;
+            display: none;
         }
+
+        .nav__item:hover .nav__item__link {
+            background: #4b9fba;
+        }
+
+        .nav__item:hover .nav__item__sub-nav + .nav__item__link {
+            border-bottom: 1px solid #6bb4ca;
+            margin-bottom: -1px;
+            box-shadow: inset 0 -1px 0 0 #388bac;
+        }
+
+        .nav__item:hover .nav__item__sub-nav {
+            display: block;
+        }
+
+            .nav__item__sub-nav__item {
+
+            }
+
+                .nav__item__sub-nav__item__link {
+                    display: block;
+                    height: 33px;
+                    line-height: 36px;
+                    padding: 0 14px 0;
+                    white-space: nowrap;
+                    border-top: 1px solid #6bb4ca;
+                    border-bottom: 1px solid #388bac;
+                }
+
+                .nav__item__sub-nav__item__link:hover {
+                    background: #34768b;
+                }
+
+                .nav__item__sub-nav__item:first-child .nav__item__sub-nav__item__link {
+                    border-radius: 0 3px 0 0;
+                    border-top: none;
+                }
+
+                .nav__item__sub-nav__item:last-child .nav__item__sub-nav__item__link {
+                    border-radius: 0 0 3px 3px;
+                    border-bottom: none;
+                }
